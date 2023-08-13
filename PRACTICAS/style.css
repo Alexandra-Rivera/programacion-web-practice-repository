@@ -1,0 +1,66 @@
+/*Selector de elemento, selecciona el elemento HTML especificado*/
+
+/*En esta regla en especifico hemos definido una fuente base global y un tamanio fuente para usar en toda la pagina*/
+html {
+    font-size: 25px;
+    font-family: "Nunito", Nunito;
+}
+
+body  {
+    margin: 0 auto;
+    background-color: #F7F6F6;
+    padding: 20px 50px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+/*Selector de identificacion ID, selecciona unicamente el elemento que tenga ese ID*/
+#titulo-principal {
+    color: black;
+}
+
+#second-title {
+    color: #CE2B44;
+}
+
+/*Selector de clase, se aplica a todos los elementos HTML que tengan la misma clase*/
+.titulosH3 {
+    font-size: larger;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+}
+
+#principal-image {
+    width: 500px;
+    height: 650px;
+
+    box-shadow: 5px 5px 15px gray;
+}
+
+/* Selector de atributo, se aplicara a los elementos que tengan el atributo especificado
+img[src] {
+    box-shadow: 5px 5px 15px;
+}
+
+/*Selector de pseudoclase, se aplicara a los elementos especificados, pero solamente en el estado especificado
+img[src]:hover {
+    box-shadow: 2px 2px 15px yellow;
+} */
+
+.social-networks {
+    box-shadow: 5px 5px 15px; /*Hay que checar*/
+}
+
+.social-networks:hover {
+    box-shadow: 2px 2px 15px yellow;
+}
