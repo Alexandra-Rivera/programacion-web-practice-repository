@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins&display=swap');
+
+
+/*Estilo general de la página*/
+*{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Estilo de franjas decorativas del encabezado y estilo del encabezado*/
+#franja-negra{
+    background-color: black;
+}
+
+#franja-azul{
+    background-color: #2890B9;
+    height: 0.001px;
+}
+
+.header h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-shadow: 2px 3px 4px rgb(127, 140, 141);
+} 
+
+.header-text{
+    font-size: 20px;
+}
+
+#Titulo-logo-principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+    align-content: center;
+}
+
+
+#Titulo-logo-principal div{
+    height: 50%;
+}
+
+#Id-del-titulo{
+    height: 50%;
+}
+
+#div-logo-principal img{
+    float: right;
+
+    height:min-content;
+}
+
+/*Estilo de la sección de colores de la app*/
+
+.paleta-colores-section1 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.color-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 50%;
+    justify-self: center;
+    font-family: 'Inter', sans-serif;
+    /*width: 50%;*/
+}
+
+.box{
+    padding: 10px;
+    height: auto;
+}
+
+.box-dominant-color{
+    border: 5px solid #ECF0F1;
+    background-color: #ECF0F1;
+}
+
+/*.box-secondary-color{
+    border: 5px solid #2C3E50;
+    background-color: #2C3E50;
+    color: aliceblue;
+}*/
+
+.box-tertiary-color{
+    border: 5px solid #001527;
+    background-color: #001527;
+    color: aliceblue;
+
+}
+
+.box-accent-color{
+    border: 5px solid #2890B9;
+    background-color: #2890B9;
+    color: aliceblue;
+}
+
+.box-accent-color-op2{
+    border: 5px solid #d98310;
+    background-color: #d98310;
+    color: aliceblue;
+}
+
+
+/*.box-dominant-color:hover, .box-secondary-color:hover, .box-tertiary-color:hover, .box-accent-color:hover, .box-accent-color-op2:hover{
+    transform: scaleX(1.1);
+    z-index: 1;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+    transition-duration: 0.5s;
+}*/
+
+/*Este bloque es el que determina la forma de la segunda seccion*/
+.color-container-block-model{ 
+    padding: 5px;
+    display: flex;
+    border: 0.5px solid black;
+    justify-content: center;
+    width: auto;
+
+    box-shadow: 10px rgb(127, 140, 141);
+    margin-top: 50px;
+}
+
+.block{
+    margin: 10px;
+    padding: 100px;
+
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.dominant-color{
+    background-color: #ECF0F1;
+    border: black;
+}
+
+/*.secondary-color{
+    background-color: #2C3E50;
+    border: black;
+
+}*/
+
+.tertiary-color{
+    background-color: #001527;
+    border: black;
+}
+
+.accent-color{
+    background-color: #2890B9;
+    border: black;
+
+}
+
+.accent-color-op2{
+    background-color: #d98310;
+    border: black;
+}
+
+.dominant-color:hover, .secondary-color:hover, .accent-color:hover, .tertiary-color:hover, .accent-color-op2:hover{
+    transform: scale(1.2);
+    z-index: 5;
+    transition: 1s;
+}
+
+/*Sección logotipo*/
+#logotipo-section h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.logotipo-container{
+    display: flex;
+    padding: 20px;
+
+    justify-content: center;
+}
+
+.logotipo-container > div{
+    margin-top: 50px;
+    padding: auto;
+
+    margin: 15px;
+
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.logotipo-blanco{
+    background-color: #2C3E50;
+
+    border-radius: 25px;
+    align-content: center;
+
+}
+
+.logotipo-negro{
+    border-radius: 25px;
+    align-content: center;
+    background-color: #ECF0F1;
+}
+
+.logotipo-blanco-azul-oscuro{
+    background-color: #001527;
+    align-content: center;
+
+    border-radius: 25px;
+}
+
+.logobox{
+    padding: 0.1px;
+    height: auto;
+}
+
+#logotipo-image-section{
+    margin: auto;
+}
+
+#tabla-contenedor{
+    height: auto;
+    width: auto;
+    margin: auto;
+
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+#logotipo-image-container img{
+    display: block;
+    margin: auto;
+}
+
+
+/*Tabla de valores de la app*/
+#tabla-valores{
+    height: auto;
+    width: 100%;
+
+    justify-content: center;
+    align-self: center;
+}
+
+.lista-caracteristicas-flex{
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+
+    text-align: center;
+}
+
+.lista-caracteristicas-flex li{
+    border-radius: 15px;
+
+    background-color: #2890B9;
+    color: aliceblue;
+    height: 70px;
+    list-style-type: none;
+
+    align-self: center;
+
+    margin: 5px;
+}
+
+.lista-caracteristicas-flex li:hover{
+    background-color: #001527;
+
+    transition-duration: 0.5s;
+}

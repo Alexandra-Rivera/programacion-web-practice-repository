@@ -4,20 +4,27 @@
 html {
     font-size: 25px;
     font-family: "Nunito", Nunito;
+
+    background-color: #F7F6F6;
 }
 
 body  {
     margin: 0 auto;
     background-color: #F7F6F6;
-    padding: 20px 50px 0px;
+    padding: 20px 50px 30px;
 
-    width: 90%;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 45px;
+
+    width: 60%;
 }
 
 h1 {
     font-size: 60px;
-    text-align: center;
+    text-align: left;
     text-shadow: 3px 3px 3px gray;
+
+    color: #303740;
 }
 
 p {
@@ -28,10 +35,6 @@ p {
 
 
 /*Selector de identificacion ID, selecciona unicamente el elemento que tenga ese ID*/
-#titulo-principal {
-    color: black;
-}
-
 #second-title {
     color: #CE2B44;
 }
@@ -46,8 +49,8 @@ p {
 /*Selector de clase, se aplica a todos los elementos HTML que tengan la misma clase*/
 .titulosH3 {
     font-size: larger;
-    font-weight: 700;
-    color: black;
+    font-weight: bolder;
+    color: #063970;
 }
 
 /* Selector de atributo, se aplicara a los elementos que tengan el atributo especificado
@@ -60,10 +63,8 @@ img[src]:hover {
     box-shadow: 2px 2px 15px yellow;
 } */
 
-.social-networks {
-    box-shadow: 5px 5px 15px; /*Hay que checar*/
-}
-
 .social-networks:hover {
-    box-shadow: 2px 2px 15px yellow;
+    transform: scale(1.2);
+    z-index: 5;
+    transition: 0.5s;
 }
