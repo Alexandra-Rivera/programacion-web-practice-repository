@@ -9,19 +9,23 @@ html {
 body  {
     margin: 0 auto;
     background-color: #F7F6F6;
-    padding: 20px 50px;
+    padding: 20px 50px 0px;
+
+    width: 90%;
 }
 
 h1 {
     font-size: 60px;
     text-align: center;
+    text-shadow: 3px 3px 3px gray;
 }
 
 p {
     font-size: 20px;
-    line-height: 2;
     letter-spacing: 1px;
+    text-align: justify;
 }
+
 
 /*Selector de identificacion ID, selecciona unicamente el elemento que tenga ese ID*/
 #titulo-principal {
@@ -32,19 +36,18 @@ p {
     color: #CE2B44;
 }
 
+#principal-image {
+    display: block; /*Con esta declaracion, convertimos este elemento de tipo inline a un elemento de bloque para que se le pueda aplicar el margen*/
+    margin: 0 auto;
+
+    box-shadow: 5px 2px 15px gray;
+}
+
 /*Selector de clase, se aplica a todos los elementos HTML que tengan la misma clase*/
 .titulosH3 {
     font-size: larger;
     font-weight: 700;
-    font-style: italic;
     color: black;
-}
-
-#principal-image {
-    width: 500px;
-    height: 650px;
-
-    box-shadow: 5px 5px 15px gray;
 }
 
 /* Selector de atributo, se aplicara a los elementos que tengan el atributo especificado
