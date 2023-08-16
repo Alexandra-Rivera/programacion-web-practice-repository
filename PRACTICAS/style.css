@@ -46,6 +46,10 @@ p {
     box-shadow: 5px 2px 15px gray;
 }
 
+#links-section-title {
+    color: #AD292D;
+}
+
 /*Selector de clase, se aplica a todos los elementos HTML que tengan la misma clase*/
 .titulosH3 {
     font-size: larger;

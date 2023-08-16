@@ -1,0 +1,16 @@
+body {
+    background-color: #296AAD;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+
+    margin: 100px auto;
+    font-family: 'Raleway', Raleway;
+}
+
+#mapa-el-salvador {
+    display: block;
+    margin: auto;
+}

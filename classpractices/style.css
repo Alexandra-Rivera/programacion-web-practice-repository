@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300&family=Cherry+Bomb+One&family=DM+Sans:opsz@9..40&family=Nunito:wght@400;700&family=Open+Sans&family=Poppins&family=Raleway:wght@100;400&family=Roboto:wght@100;400&display=swap');
+
+body {
+    font-family: 'Open Sans', Open Sans;
+}
+
+h1 {
+    margin: 20px auto;
+    font-size: 60px;
+
+    text-align: center;
+}
+
+#header-section h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#first-paragraph {
+    text-align: center;
+}
+
+iframe {
+    border: 1px solid black;
+    width: 100%; 
+
+    margin: 0px auto 30px;
+}
+
+.caja-de-textos {
+    margin: auto;
+    border: 1px solid black;
+
+    padding: 10px;
+}
+
+#etiqueta-ins-caja {
+    margin: 10px auto;
+    border: 1px solid black;
+
+    padding: 10px;
+}
+
+#lists-box {
+    margin: 10px auto;
+    border: 1px solid black;
+
+    padding: 10px;
+}
+
+#red-text {
+    color: red;
+}
+
+#green-text {
+    color: green;
+}
+
+.highlighted {
+    background-color: lightblue;
+}
+
+#palabra-highlighted {
+    background-color: greenyellow;
+}
+
+#new-font {
+    font-family: Helvetica;
+}
+
+#new-font-size {
+    font-size: 24px;
+}
+
+#text-among-mark-tags {
+    background-color: brown;
+    color: aliceblue;
+}
