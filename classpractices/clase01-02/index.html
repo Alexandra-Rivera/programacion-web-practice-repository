@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Estos son los metadatos de la pagina-->
+
+    <!--Son un conjunto de datos que describen el contenido informativo de un recurso, de archivos o de informacion de los mismos-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios clase 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="header-section">
+        <h1>Primera clase sobre tags de html</h1>
+        <!-- Asi se escribe un parrafo -->
+        <p id="first-paragraph" >This is a paragraph</p>
+    
+    
+         <!-- Listas ordenadas -->
+        <ol id="ol-lists">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+    
+        <!-- Asi se coloca una imagen -->
+        <!-- en caso de que haya algun problema que impida cargar la imagen, se mostrara en pantalla el texto  -->
+        <img src="./resources/htmlimage.png" alt="This is an image">
+    
+    
+        <!-- Cabeceras -->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptatum alias consequuntur nemo corrupti quam, optio non sint soluta facere rerum corporis unde harum animi necessitatibus dicta cupiditate illo officiis!</p>
+    
+        <!-- La etiqueta span -->
+        <span>text 1</span><span>text 2</span><span>text 3</span><span>text 4</span><span>text 5</span>
+        <span>This sentence is wrapped in a span tag.</span>This sentence is not
+        <p>We can use span tags to target text with CSS styling, like with <span id="red-text">this red text</span> and <span id="green-text">this green text</span>.</p>
+    
+    <p>You can use span for <span class="highlighted">any CSS rule</span>. Here I'm using the <span class="highlighted">background-color</span> property to <span class="highlighted">highlight text</span>.</p>
+    <p>You're not limited to color either. You can change the <span id="new-font">font family</span> or <span id="new-font-size">font size</span>.</p>
+    
+    <p>In French, the phrase <span lang="fr">"s'il te plaît"</span> means "please."</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas eos eaque deserunt incidunt. Aut laboriosam ea distinctio  <span id="palabra-highlighted">recusandae officia molestias repudiandae perspiciatis</span> quos soluta, hic facere voluptatibus ducimus modi nisi.</p>
+    <br>
+    </section>
+    
+    <!--  -->
+    <iframe src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" title="New York" width="542" height="306" id="gmap_canvas" scrolling="no"></iframe>
+
+
+    <div class="caja-de-textos">
+        <h2>Manejo de textos en hmtl</h2>
+
+        <h3>Etiqueta b</h3>
+        <b>Bold Text</b><br>
+
+        <h3>Etiqueta strong</h3>
+        <strong>This text is important, this is the <b>strong</b> tag</strong><br>
+        <!-- Verificar la diferencia entre <i> y <em> -->
+
+        <h3>Etiqueta i</h3>
+        <i>Italic text</i><br>
+
+        <h3>Etiqueta em</h3>
+        <em>This text is emphasized</em><br>
+
+        <h3>Etiqueta u</h3>
+        <u>Underline text</u><br>
+
+        <h3>Etiqueta pre</h3>
+        <pre>
+            Preformatted text
+            Multiple lines
+        </pre>
+        <br>
+
+        <h3>Etiqueta code</h3>
+        <code>Source code</code>
+        <br>
+
+        <h3>Etiqueta del</h3>
+        <del>Deleted text</del>
+        <br>
+
+        <h3>Etiqueta mark</h3>
+        <mark id="text-among-mark-tags">Highlighted text</mark>
+        <br>
+        <!-- La etiqueta ins marca las partes de un texto que han sido anadidos al documento -->
+
+        <h3>Etiqueta ins</h3>
+        <ins>Inserted text</ins><br>
+
+        <h3>Etiqueta span y sup</h3>
+        <span>Makes text</span><sup>superscripted</sup>
+        <br>
+
+        <h3>Etiqueta span y sub</h3>
+        <span>Makes text</span><sub>subscripted</sub>
+        <br>
+
+        <h3>Etiqueta small</h3>
+        <small>Makes text smaller</small>
+        <br>
+
+        <h3>Etiqueta blockquote</h3>
+        <blockquote>Text Block Quote</blockquote>
+    </div>
+
+    <div id="etiqueta-ins-caja">
+        <h2>Probando etiqueta ins</h2>
+        <!-- Hay que buscar la diferenica entre ins y u (de underlined) -->
+        <p>El agua es insipida,</p>
+        <ins>inolora e incolora.</ins>
+    </div>
+
+    <div id="lists-box">
+
+        <h2>Tipos de Listas</h2>
+
+
+        <h3>Unordered Lists</h3>
+        <!-- Unordered lists -->
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+        </ul>
+
+        <h3>Ordered lists</h3>
+        <!-- Ordered lists -->
+
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+        </ol>
+
+
+        <h3>Definition Lists</h3>
+        <!-- Definition lists -->
+        <dl>
+            <dt>Term 1</dt>
+            <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum odit accusamus ut voluptatum magnam illum quibusdam officia magni deserunt dolorum repellendus dolorem pariatur, nostrum impedit, sit, atque quo animi porro.</dd>
+            <dt>Term 2</dt>
+            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio cum fuga rem recusandae aperiam quae dolores provident distinctio hic vel accusamus dolorem, obcaecati nesciunt quam. Velit aperiam accusantium nemo sed.</dd>
+            <dt>Term 3</dt>
+            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet similique labore ratione quasi cum, aliquam consectetur provident eum sapiente perspiciatis, hic soluta ab minima architecto. Beatae repellat iusto nesciunt ab!</dd>
+        </dl>
+    </div>
+
+    <h2>Anchors</h2>
+    <!-- Anchors -->
+    <ol>
+        <li><a href="https://quickref.me/html">Enlace a otra pagina</a></li>
+        <li><a href="https://quickref.me/html" target="_blank">Enlace a otra pagina</a></li>
+        <li><a href="./index.html">Pagina dentro del mismo sitio</a></li>
+        <li><a href="#first-paragraph">Enlace a first-paragraph</a></li>
+    </ol>
+</body>
+</html>
