@@ -33,6 +33,32 @@
             <input type="text" placeholder="Alexandra">
             <input type="text" placeholder="Rivera">
         </div>
+
+        <div>
+            <h2>Text field</h2>
+            <form action="/url" method="GET">
+                <p>Please enter your full name:</p>
+                <input type="text" name="name" placeholder="Alexandra Rivera">
+            </form>
+        </div>
+
+        <div>
+            <h2>Barra de busqueda</h2>
+            <!-- El atributo action indica adonde se va a enviar la informacion ingresada en el input -->
+            <form action="/url" method="GET">
+                <input type="search" name="content">
+                <button>Buscar</button>
+            </form>
+        </div>
+
+        <div>
+            <h2>Correo electronico</h2>
+            <form action="https://mail.google.com/mail/u/1/#inbox/p15?compose=CllgCJvpbkkGqHxbgzpbTwxGtzKHZTvDGBCXfDcTHxWSFkhQBcsKKJSgClMDShhWkCTHKBcZPGq" method="GET">
+                <!-- El valor de name="" es el nombre de la variable que contiene los datos ingresados en el input -->
+                <input type="email" name="userEmail" id="email">
+                <button>Submit</button>
+            </form>
+        </div>
     </section>
 </body>
 </html>
