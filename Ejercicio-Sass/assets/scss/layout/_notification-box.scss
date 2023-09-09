@@ -6,10 +6,17 @@
     margin: 20px 10px;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     line-height: 0.2rem;
     height: 40px;
+
+    align-items: center;
+
+    .notification-text-content {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .opened-notification-box {
@@ -17,8 +24,15 @@
     margin: 20px 10px;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     line-height: 0.2rem;
     height: 40px;
+
+    align-items: center;
+
+    .notification-text-content {
+        display: flex;
+        flex-direction: column;
+    }
 }

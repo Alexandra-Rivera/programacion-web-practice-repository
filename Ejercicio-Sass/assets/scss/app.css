@@ -90,18 +90,38 @@ span {
   padding: 10px;
   margin: 20px 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   line-height: 0.2rem;
   height: 40px;
+  align-items: center;
+}
+.notification-box .notification-text-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .opened-notification-box {
   padding: 10px;
   margin: 20px 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   line-height: 0.2rem;
   height: 40px;
+  align-items: center;
+}
+.opened-notification-box .notification-text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-picture-container {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.profile-picture-container img {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=app.css.map */
