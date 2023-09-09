@@ -113,6 +113,11 @@ span {
   display: flex;
   flex-direction: column;
 }
+.opened-notification-box .message-box {
+  height: auto;
+  width: auto;
+  font-size: 10px;
+}
 
 .profile-picture-container {
   border-radius: 50%;
@@ -122,6 +127,15 @@ span {
 .profile-picture-container img {
   width: 100%;
   height: auto;
+}
+
+.red-dot {
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  display: inline-block;
+  margin-left: 5px;
 }
 
 /*# sourceMappingURL=app.css.map */
