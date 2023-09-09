@@ -15,10 +15,15 @@ body {
 
 h1 {
     font-size: 1.2rem;
+    font-weight: bolder;
 }
 
 p {
     font-size: 0.75rem;
+}
+
+.tiempo-recorrido {
+    color: v.$tiempo-recorrido-color;
 }
 
 span {

@@ -13,10 +13,15 @@ body {
 
 h1 {
   font-size: 1.2rem;
+  font-weight: bolder;
 }
 
 p {
   font-size: 0.75rem;
+}
+
+.tiempo-recorrido {
+  color: #a3a7af;
 }
 
 span {
@@ -51,10 +56,33 @@ span {
   background-color: #ffffff;
   height: 85%;
   width: 40%;
-  padding: 10px;
+  padding: 25px;
   box-sizing: border-box;
   border-radius: 8px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.main-card header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-card header .main-title {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+.main-card header .main-title #little-tiny-box {
+  background-color: #063274;
+  color: white;
+  width: 2rem;
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .notification-box {
@@ -62,7 +90,18 @@ span {
   padding: 10px;
   margin: 20px 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  line-height: 0.2rem;
+  height: 40px;
+}
+
+.opened-notification-box {
+  padding: 10px;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  line-height: 0.2rem;
+  height: 40px;
 }
 
 /*# sourceMappingURL=app.css.map */
