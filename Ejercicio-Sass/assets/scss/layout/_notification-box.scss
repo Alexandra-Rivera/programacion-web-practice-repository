@@ -1,0 +1,10 @@
+@use '../base/variables' as v;
+
+.notification-box {
+    background-color: v.$notification-box-color;
+    padding: 10px;
+    margin: 20px 10px;
+
+    display: flex;
+    flex-direction: row;
+}

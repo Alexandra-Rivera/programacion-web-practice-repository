@@ -1,0 +1,19 @@
+@use '../base/variables' as v;
+
+.super-container {
+    background-color: v.$super-container-background;
+    width: 80%;
+    height:90vh;
+
+    margin: 50px auto;
+
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 45px lightgray;
+}

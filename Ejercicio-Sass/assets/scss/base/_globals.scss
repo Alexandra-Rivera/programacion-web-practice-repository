@@ -1,0 +1,38 @@
+/*
+Dentro de globals se incluyen todos los estilos y configuraciones de alcance global que afectan a todo el proyecto.
+
+Definimos caracteristicas globales para el html, el body, los parrafos, los titulos etc...
+*/
+
+@use './variables' as v;
+
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: v.$main-font;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 0.75rem;
+}
+
+span {
+    color: v.$secondary-text-color;
+    font-weight: 700;
+}
+
+.little-tiny-box {
+    width: 1.2rem;
+    height: 1.2rem;
+
+    color: #FFFF;
+    background-color: v.$little-tiny-box-background;
+
+    justify-content: center;
+    text-align: center;
+}

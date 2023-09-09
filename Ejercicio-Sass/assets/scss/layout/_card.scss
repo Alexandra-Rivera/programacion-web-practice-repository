@@ -1,0 +1,13 @@
+@use '../base/variables' as v;
+
+.main-card {
+    background-color: v.$main-card-background;
+
+    height: 85%;
+    width: 40%;
+
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

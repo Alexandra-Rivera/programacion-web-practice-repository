@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Notifications page</title>
+  <link rel="stylesheet" href="./assets/scss/app.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -19,19 +19,25 @@
   <section class="super-container">
     <article class="main-card">
 
-     <h1>Notifications</h1>
-     <div>3</div>
-
-     <p>Mark all as read</p> 
-
-     <b>Mark Webber</b> reacted to your recent post My first tournament today!
-     1m ago
-
-     <b>Angela Gray</b> followed you
-     5m ago
-
-    <b>Jacob Thompson</b> has joined your group Chess Club
-     1 day ago
+      <header>
+        <h1>Notifications</h1>
+        <div class="little-tiny-box">3</div>
+   
+        <p>Mark all as read</p>    
+      </header>
+  
+     <article class="notification-box">
+      <p><b>Mark Webber</b> reacted to your recent post <span>My first tournament today! </span></p>
+      <p>1m ago</p>
+     </article>
+     <article class="notification-box">
+      <p><b>Angela Gray</b> followed you </p>
+      <p>5m ago</p>
+     </article>
+     <article class="notification-box">
+      <p><b>Jacob Thompson </b> has joined your group Chess Club</p>
+      <p>1 day ago</p>
+     </article>
 
      Rizky Hasanuddin sent you a private message
      5 days ago
