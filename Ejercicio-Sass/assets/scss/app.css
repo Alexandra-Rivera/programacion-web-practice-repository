@@ -54,7 +54,6 @@ span {
 
 .main-card {
   background-color: #ffffff;
-  height: 85%;
   width: 40%;
   padding: 25px;
   box-sizing: border-box;
@@ -114,9 +113,12 @@ span {
   flex-direction: column;
 }
 .opened-notification-box .message-box {
-  height: auto;
-  width: auto;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px;
   font-size: 10px;
+  border: 1px solid gray;
 }
 
 .profile-picture-container {

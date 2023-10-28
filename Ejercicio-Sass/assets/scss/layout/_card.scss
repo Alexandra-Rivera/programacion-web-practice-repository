@@ -1,9 +1,16 @@
 @use '../base/variables' as v;
 
+@mixin flex-orientation {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
 .main-card {
     background-color: v.$main-card-background;
 
-    height: 85%;
+    // height: 85%;
     width: 40%;
 
     padding: 25px;
@@ -37,9 +44,7 @@
 
                 border-radius: 5px;
 
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include flex-orientation();
             }
         }
     }
